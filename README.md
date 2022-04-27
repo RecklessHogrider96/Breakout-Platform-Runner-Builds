@@ -31,4 +31,4 @@ There is a Localization system built in as well with support for English (defaul
 
 ## Level Editor - For all above Games
 
-The Releases for Breakout and Platform Runner Games.
+The Level editor edits the levels for all the three above games. Yeah I know that is incredible!
