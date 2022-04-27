@@ -27,7 +27,15 @@ There is a Localization system built in as well with support for English (defaul
 
 ## Grave Runner - Platform Runner
 
+Simple Platform runner game. 
+
+Note for when you play the game: You can win the level without the key, by the way. The key would just increase the score.
+
 ## Breakdown - Breakout Game
+
+Simple block breaker game with different types of blocks!
+
+Note for when you play the game: Black bricks are walls, you cannot break them. The grey bricks are hard bricks and breaking it is optional to finish the level. But the more you break, the more points you get! 
 
 ## Level Editor - For all above Games
 
