@@ -1,6 +1,6 @@
 # Tower Defense, Platform Runner and Breakout Windows and MacOS Builds
 
-Authors:
+Legends:
 - Roshan Bellary - recklessHogrider96
 - Marcin Kierzenka - mkierzenka
 - Zachary Katancik - zkatancik
