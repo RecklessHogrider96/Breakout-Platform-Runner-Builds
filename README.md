@@ -1,7 +1,7 @@
-# Breakout, Platform Runner and Tower Defense Windows and MacOS Builds
+# Tower Defense, Platform Runner and Breakout Windows and MacOS Builds
 
 Authors:
-- Roshan - recklessHogrider96
+- Roshan Bellary - recklessHogrider96
 - Marcin Kierzenka - mkierzenka
 - Zachary Katancik - zkatancik
 - Matin Raayai Ardakani - matinraayai
@@ -12,6 +12,18 @@ The builds for each game are present in the bin folder of either the Windows or 
 There is a level editor as well where the levels are all 3 above mentioned games can be found in the bin/editor folder.
 
 ## Tower Hour - Tower Defense
+
+This is a 2D grid based Tower Defense game. There is a start and end in each level, the start is where the enemies begin spawning and the end is where they exit the map. Once they exit the map, the players health would reduce, which when it hits zero the level is lost. There is a currency system in game with which towers like, Rock Thrower, Archer Tower (Ranged) and Magic Tower (AOE), and mines can be bought to defend the exit. Upon killing each enemy, coins and score are earned using which more towers can be bought and placed in key places strategically. 
+
+There are 3 waves of enemies in each level and a pause before the start of each level to strategize and take a breather. Clicking the Start Wave button on the bottom bar would start the wave. The enemies vary in health and the enemies spawned at the beginning of each wave are always lower health than the enemies spawned towards the end of the wave. In other words, enemies are spawned in order of their health in each wave.  
+
+There are 4 levels in the game, in the order of increasing difficulty. The level editor can edit the following:
+- Base underlying level - The light green background is the default upon with the path tiles can be placed.
+- The spots where the towers can be placed in a grid fashion.
+- The environment elements like trees, bushes, forests, stones in a free placement non grid dependent way.
+- The number of enemies in wave for each level. The enemies shown in the editor are in order of their health, i.e, the first is the lowest health and the last is the highest health.
+
+There is a Localization system built in as well with support for English (default) and Spanish. (It was a shortcut to add the map within the ResouceManager rather than create a txt file due to the lack of time to implement it and I never got around to refactoring it).
 
 ## Grave Runner - Platform Runner
 
