@@ -40,3 +40,49 @@ Note for when you play the game: Black bricks are walls, you cannot break them. 
 ## Level Editor - For all above Games
 
 The Level editor edits the levels for all the three above games. Yeah I know that is incredible!
+
+## Notes by each Legend.
+
+### Roshan
+- Rewrote level file design, generation and updation via level editor. Added Instructions menus. 
+- Dynamic selection of block textures from the resources. Wrote backend for the level editor.
+- Added Enemy Path file so that we can have pre defined paths as well.
+- Added Enemy tower path to have layers levels.
+- Built full Level editor.
+- Built 4 levels. Wrote Enemy spawner and enemy spawner file with config data on what to spawn.
+- Updated instructions.
+- Built Level editor for Environment.
+- The level editor would be able to edit 3 files at the same time, where all the information related to the layering in the level would be present.
+
+### Matin
+- Completely revamped how we organized levels and UI, making everything use the GameObject and Level architecture
+and allow for reusable components across both games. This change allowed us to easily and modularly add buttons, UI elements,
+and gameObjects in both the games and the editor. After the breakout game worked with the new design, others helped transfering
+it into other deliverables of the project. I then helped each team member with bug fixes.
+
+- Made delayed spawn component + other indicators used in the game logic. Made a separate enemy level file in sparse format.
+Helped with bug fixes of other group members.
+
+- Added Anti-tank mine. Helped with bug fixes of other group members. Ensured playability of previous components.
+- Added level editor support for the enemy waves for each file.
+
+### Marcin
+- Mostly worked on porting over the GraveRunner functionality into the new infrastructure after Matin did the initial setup.
+This included both the game itself and its level editor.
+- Led the push to add the Rock Throwing Tower and support classes (E.g. Rock, RockThrower Component, etc.) including parsing level
+files, creating the new objects, defining the interactions between Rocks and Enemies. Also did some touchups to
+TdLevel/TdLogic-related code for handling the necessary new functionality (e.g. tracking score, lives, reducing enemy health, etc.).
+Ported over and fixed unit tests for previous games. Added unit tests for the Tower Defense game code. Added documentation
+throughout Tower Defense codebase.
+- Added the health bars to enemies, put some time into investigating how to support tower upgrading. Then put some time into
+making the submenu for towers and working with Zach to change their targeting preferences.
+Also the usual small cleanups/touchups here and there.
+
+### Zack
+- Rewrote all UI components to be game objects, including buttons, menus, etc. Worked extensively
+on game editors front-end to match rest of the component based architecture. 
+- Did initial custom game setup getting a working game going from scratch, 
+reconfigured the menus to new game, added UI elements to the in-game experience, and worked on grid components for object placement like mouse over of 
+items when clicked.
+- Added all new tower types with varying mechanics. Animated all towers and created sprites. Added 
+ability for users to change the targeting of towers.
